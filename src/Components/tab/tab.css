@@ -1,0 +1,9 @@
+.tab-container{
+    border: 2px solid #CE70FF;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
