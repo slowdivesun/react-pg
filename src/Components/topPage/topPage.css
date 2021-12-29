@@ -1,14 +1,22 @@
 .toppage-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-width: 400px;
 }
 
 .toppage-para{
     width: 90vw;
     align-self: center;
     font-size: 14px;
+    max-width: 300px;
+    color: white;
 }
 
+.toppage-heading{
+    color: white;
+}
 .toppage-buttons > button{
     padding: 10px 25px;
     border: 2px solid white;
@@ -18,6 +26,22 @@
     background-color: transparent;
 }
 
+.toppage-buttons{
+    display: flex;
+    align-items: center;
+    width: 300px;
+
+    justify-content: space-around;
+}
+
 .toppage-heading{
     padding: 0;
+}
+
+.toppage-mirror{
+    width: 200px;
+    height: 80px;
+    background-image: linear-gradient(45deg, #FFFFFF , #E1C2E7, #9BD1DD, #E8B4F0, #FFFFFF );
+    border-radius: 10px;
+
 }

@@ -3,13 +3,16 @@ import './App.css';
 import Topbar from './Components/topbar/topbar';
 import TopPage from './Components/topPage/topPage';
 import Tab from './Components/tab/tab';
+import Bottom from './Components/bottom/bottom';
 
 function App() {
   return (
     <div className="App">
       <Topbar />
-      <TopPage />
-      <Tab msg="Finance and Insurance" />
+      <div className="container">
+        <TopPage />
+        <Bottom />
+      </div>
     </div>
   );
 }

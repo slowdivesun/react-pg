@@ -1,0 +1,34 @@
+.bottom-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.bottom-para{
+    width: 280px;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bottom-tab{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.bottom-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.bottom-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
